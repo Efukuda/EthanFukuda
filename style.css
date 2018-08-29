@@ -11,15 +11,17 @@ max-width: 100%;
 
 }
 
-
-
  body {
+ 	margin:0;
+ 	padding:0;
+ 	color: darkgrey;
+ 	background: #8470ff;
    font-family: 'Open Sans', sans-serif;
  }
 
 
  #wrapper {
-   max-width: 940px;
+   max-width: 900px;
    margin: 0 auto;
    padding: 0 5%;
 
@@ -28,7 +30,7 @@ max-width: 100%;
 
 
  a {
-   color: #6ab47b;
+   color: #8470ff;
 
  }
 
@@ -42,38 +44,20 @@ HEADING
 **************************************/
 
 header {
-  float: left;
-  margin: 0 0 20px 0;
-  padding: 2px 0 0 0;
-  width: 100%;
-
+background: #fff;
+margin-bottom: 20px;
 }
 
 
-
-#logo {
-   text-align: center;
-   margin: 0;
-
- }
-
- h1  {
- font-family: 'Changa One', sans-serif;
- margin: 10px 0;
- font-size: 1.75em;
- font-weight: normal;
- line-height: 0.5;
- text-align: center;
- color: 	#FF0000;
-
- }
-
  h2  {
+color:white;
+ }
 
-
- font-size: 1.00em;
- font-weight: normal;
- margin: -5px 0 0;
+ .content h1{
+ 	background: #FFA500;
+ 	padding: 10px;
+ 	border-radius: 5px;
+ 	margin-bottom: 20px;
  }
 
 
@@ -85,6 +69,11 @@ h3  {
     margin: 15px 0 0;
 }
 
+.container{
+	max-width: 960px;
+	width: 96%;
+	margin: auto;
+}
 
 
 
@@ -130,9 +119,11 @@ PAGE:
 .mydiv {background: lightblue; width:250px; height: 250px;}
 
 .myimage {
+	position: relative;
+	bottom: 16px;
     float:left;
-    width:150px;
-    height:175px;
+    width:160px;
+    height:200px;
     margin:20px;
     border-radius: 20px;
 }
@@ -157,14 +148,14 @@ COLORS
 
  /* green header*/
   header {
-   background: #6ab47b;
+   background: #ADD8E6;
    border-color: #599a68;
  }
 
  /* logo text*/
 
  h1,h2  {
-    color: #32673f;
+    color: #FFFFFF;
 }
 
 /* nav background on mobile devices*/
